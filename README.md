@@ -41,11 +41,20 @@ We support the [7Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-
 ### Training
 The executable script is `train.py`. For example:
 
-- AtLoc on `loop` from `RobotCar`: `python train.py --dataset RobotCar --scene loop --model AtLoc --gpus 0`
+- AtLoc on `loop` from `RobotCar`: 
+```
+python train.py --dataset RobotCar --scene loop --model AtLoc --gpus 0
+```
 
-- AtLocLstm on `loop` from `RobotCar`: `python train.py --dataset RobotCar --scene loop --model AtLoc --lstm True --gpus 0`
+- AtLocLstm on `loop` from `RobotCar`: 
+```
+python train.py --dataset RobotCar --scene loop --model AtLoc --lstm True --gpus 0
+```
 
-- AtLoc+ on `loop` from `RobotCar`: `python train.py --dataset RobotCar --scene loop --model AtLocPlus --gamma -3.0 --gpus 0`
+- AtLoc+ on `loop` from `RobotCar`: 
+```
+python train.py --dataset RobotCar --scene loop --model AtLocPlus --gamma -3.0 --gpus 0
+```
 
 The meanings of various command-line parameters are documented in train.py. The values of various hyperparameters are defined in `tools/options.py`.
 
