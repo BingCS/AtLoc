@@ -1,5 +1,4 @@
-[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)]
-(https://raw.githubusercontent.com/BingCS/AtLoc/master/LICENSE.md)
+[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 ![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)
 # AtLoc-Attention-Guided-Camera-Localization
 
