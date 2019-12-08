@@ -28,13 +28,18 @@ AtLoc uses a Conda environment that makes it easy to install all dependencies.
 ## Data
 We support the [7Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) and [Oxford RobotCar](http://robotcar-dataset.robots.ox.ac.uk/) datasets right now. You can also write your own PyTorch dataloader for other datasets and put it in the `data` directory.
 
-#### Special instructions for RobotCar: (only needed for RobotCar data)
+### Special instructions for RobotCar: (only needed for RobotCar data)
 
 1. Download [this fork](https://github.com/samarth-robo/robotcar-dataset-sdk/tree/master) of the dataset SDK, and run `cd data && ./robotcar_symlinks.sh` after editing the `ROBOTCAR_SDK_ROOT` variable in it appropriately.
 
 2. For each sequence, you need to download the `stereo_centre`, `vo` and `gps` tar files from the dataset website. The directory for each 'scene' (e.g. `loop`) has .txt files defining the train/test_split.
 
 3. To make training faster, we pre-processed the images using `data/process_robotcar.py`. This script undistorts the images using the camera models provided by the dataset, and scales them such that the shortest side is 256 pixels.
+
+## Running the code
+
+### Demo/Inference
+The trained models for partial experiments presented in the paper can be downloaded [here](https://drive.google.com/drive/folders/1inY29zupeCmvIF5SsJhQDEzo_jzY0j6Q). The inference script is `eval.py`. Here are some examples, assuming the models are downloaded in `logs`.
 
 ## Citation
 If you find this code useful for your research, please cite our paper
