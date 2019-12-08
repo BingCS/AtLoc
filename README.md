@@ -38,8 +38,27 @@ We support the [7Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-
 
 ## Running the code
 
-### Demo/Inference
+### Training
+The executable script is `train.py`. For example:
+
+- AtLoc on `loop` from `RobotCar`: `python train.py --dataset RobotCar --scene loop --model AtLoc --gpus 0`
+
+- AtLocLstm on `loop` from `RobotCar`: `python train.py --dataset RobotCar --scene loop --model AtLoc --lstm True --gpus 0`
+
+- AtLoc+ on `loop` from `RobotCar`: `python train.py --dataset RobotCar --scene loop --model AtLocPlus --gamma -3.0 --gpus 0`
+
+The meanings of various command-line parameters are documented in train.py. The values of various hyperparameters are defined in `tools/options.py`.
+
+### Inference
 The trained models for partial experiments presented in the paper can be downloaded [here](https://drive.google.com/drive/folders/1inY29zupeCmvIF5SsJhQDEzo_jzY0j6Q). The inference script is `eval.py`. Here are some examples, assuming the models are downloaded in `logs`.
+
+### Demo
+Calculates the network attention visualizations and saves them in a video
+
+- For the AtLoc model trained on `loop` in `RobotCar`:
+```
+python saliency_map.py --dataset RobotCar --scene loop --model AtLoc --gpus 0 --weights ./logs/RobotCar_loop_AtLoc_False/models/epoch_100.pth.tar 
+```
 
 ## Citation
 If you find this code useful for your research, please cite our paper
