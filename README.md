@@ -24,3 +24,5 @@ If you find this code useful for your research, please cite our paper
   year={2019}
 }
 ```
+## Acknowledgements
+Our code partially builds on [MapNet](https://github.com/NVlabs/geomapnet) and [PoseNet](https://github.com/hazirbas/poselstm-pytorch)
