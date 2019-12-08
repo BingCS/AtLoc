@@ -13,7 +13,7 @@ This is the PyTorch implementation of our AAAI 2020 paper
 
 [Bing Wang](https://www.cs.ox.ac.uk/people/bing.wang/), [Changhao Chen](http://www.cs.ox.ac.uk/people/changhao.chen/website/), [Chris Xiaoxuan Lu](https://christopherlu.github.io/), [Peijun Zhao](https://www.cs.ox.ac.uk/people/peijun.zhao/), [Niki Trigoni](https://www.cs.ox.ac.uk/people/niki.trigoni/), and [Andrew Markham](https://www.cs.ox.ac.uk/people/andrew.markham/)
 
-### Citation
+## Citation
 If you find this code useful for your research, please cite our paper
 
 ```
