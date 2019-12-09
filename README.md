@@ -11,7 +11,7 @@ Licensed under the CC BY-NC-SA 4.0 license, see [LICENSE](LICENSE.md).
 
 This is the PyTorch implementation of **AtLoc**, a simple and efficient neural architecture for robust visual localization.
 
-#### Demo and Qualitative Results (click below for the video)
+#### Demos and Qualitative Results (click below for the video)
 
 
 ## Setup
