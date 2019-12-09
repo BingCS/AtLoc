@@ -29,7 +29,7 @@ AtLoc uses a Conda environment that makes it easy to install all dependencies.
 ## Data
 We support the [7Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) and [Oxford RobotCar](http://robotcar-dataset.robots.ox.ac.uk/) datasets right now. You can also write your own PyTorch dataloader for other datasets and put it in the `data` directory.
 
-### Special instructions for RobotCar: (only needed for RobotCar data)
+### Special instructions for RobotCar:
 
 1. Download [this fork](https://github.com/samarth-robo/robotcar-dataset-sdk/tree/master) of the dataset SDK, and run `cd data && ./robotcar_symlinks.sh` after editing the `ROBOTCAR_SDK_ROOT` variable in it appropriately.
 
