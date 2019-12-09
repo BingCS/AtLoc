@@ -12,7 +12,7 @@ Licensed under the CC BY-NC-SA 4.0 license, see [LICENSE](LICENSE.md).
 This is the PyTorch implementation of **AtLoc**, a simple and efficient neural architecture for robust visual localization.
 
 #### Demos and Qualitative Results (click below for the video)
-[![AtLoc](./logs/trajectory.jpg =100x100)](https://youtu.be/_xObJ1xwt94)
+<p align="center"> <img src="./logs/trajectory.jpg" width="100%"> </p>(https://youtu.be/_xObJ1xwt94)
 
 ## Setup
 
