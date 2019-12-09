@@ -24,7 +24,7 @@ AtLoc uses a Conda environment that makes it easy to install all dependencies.
 
 3. Activate the environment: `conda activate py27pt04`.
 
-4. Note that our code has been tested with PyTorch v 0.4.1 (the environment.yml file should take care of installing the appropriate version).
+4. Note that our code has been tested with PyTorch v0.4.1 (the environment.yml file should take care of installing the appropriate version).
 
 ## Data
 We support the [7Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) and [Oxford RobotCar](http://robotcar-dataset.robots.ox.ac.uk/) datasets right now. You can also write your own PyTorch dataloader for other datasets and put it in the `data` directory.
