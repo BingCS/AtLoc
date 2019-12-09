@@ -36,6 +36,8 @@ We support the [7Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-
 
 3. To make training faster, we pre-processed the images using `data/process_robotcar.py`. This script undistorts the images using the camera models provided by the dataset, and scales them such that the shortest side is 256 pixels.
 
+4. Pixel and Pose statistics must be calculated before any training. Use the `data/dataset_mean.py`, which also saves the information at the proper location. We provide pre-computed values for RobotCar and 7Scenes.
+
 ## Running the code
 
 ### Training
