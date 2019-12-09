@@ -1,6 +1,8 @@
 [![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 ![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)
-# AtLoc-Attention-Guided-Camera-Localization
+# [AtLoc-Attention-Guided-Camera-Localization](https://arxiv.org/abs/1909.03557) - AAAI 2020 (Oral).
+
+[Bing Wang](https://www.cs.ox.ac.uk/people/bing.wang/), [Changhao Chen](http://www.cs.ox.ac.uk/people/changhao.chen/website/), [Chris Xiaoxuan Lu](https://christopherlu.github.io/), [Peijun Zhao](https://www.cs.ox.ac.uk/people/peijun.zhao/), [Niki Trigoni](https://www.cs.ox.ac.uk/people/niki.trigoni/), and [Andrew Markham](https://www.cs.ox.ac.uk/people/andrew.markham/)
 
 ## License
 Licensed under the CC BY-NC-SA 4.0 license, see [LICENSE](LICENSE.md).
@@ -9,9 +11,6 @@ Licensed under the CC BY-NC-SA 4.0 license, see [LICENSE](LICENSE.md).
 
 This is the PyTorch implementation of our AAAI 2020 paper:
 
-[AtLoc: Attention Guided Camera Localization](https://arxiv.org/abs/1909.03557) - AAAI 2020 (Oral).
-
-[Bing Wang](https://www.cs.ox.ac.uk/people/bing.wang/), [Changhao Chen](http://www.cs.ox.ac.uk/people/changhao.chen/website/), [Chris Xiaoxuan Lu](https://christopherlu.github.io/), [Peijun Zhao](https://www.cs.ox.ac.uk/people/peijun.zhao/), [Niki Trigoni](https://www.cs.ox.ac.uk/people/niki.trigoni/), and [Andrew Markham](https://www.cs.ox.ac.uk/people/andrew.markham/)
 
 ## Setup
 
