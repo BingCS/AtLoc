@@ -66,7 +66,7 @@ The trained models for partial experiments presented in the paper can be downloa
 
 - AtLoc on `loop` from `RobotCar`: 
 ```
-python train.py --dataset RobotCar --scene loop --model AtLoc --gpus 0 --weights ./logs/RobotCar_loop_AtLoc_False/models/epoch_100.pth.tar
+python eval.py --dataset RobotCar --scene loop --model AtLoc --gpus 0 --weights ./logs/RobotCar_loop_AtLoc_False/models/epoch_100.pth.tar
 ```
 
 Calculates the network attention visualizations and saves them in a video
