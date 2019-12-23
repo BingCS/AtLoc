@@ -66,14 +66,14 @@ The trained models for partial experiments presented in the paper can be downloa
 
 - AtLoc on `loop` from `RobotCar`: 
 ```
-python eval.py --dataset RobotCar --scene loop --model AtLoc --gpus 0 --weights ./logs/RobotCar_loop_AtLoc_False/models/epoch_100.pth.tar
+python eval.py --dataset RobotCar --scene loop --model AtLoc --gpus 0 --weights ./logs/RobotCar_loop_AtLoc_False/models/epoch_300.pth.tar
 ```
 
 Calculates the network attention visualizations and saves them in a video
 
 - For the AtLoc model trained on `loop` in `RobotCar`:
 ```
-python saliency_map.py --dataset RobotCar --scene loop --model AtLoc --gpus 0 --weights ./logs/RobotCar_loop_AtLoc_False/models/epoch_100.pth.tar 
+python saliency_map.py --dataset RobotCar --scene loop --model AtLoc --gpus 0 --weights ./logs/RobotCar_loop_AtLoc_False/models/epoch_300.pth.tar 
 ```
 
 ## Citation
