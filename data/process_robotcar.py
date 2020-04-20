@@ -18,8 +18,8 @@ else:
 transform = transforms.Compose([transforms.ToPILImage(),
                                 transforms.Resize(opt.cropsize),
                                 transforms.Lambda(lambda x: np.asarray(x))])
-dset = RobotCar(scene=opt.scene, data_path=opt.data_dir, train=opt.val, transform=transform, undistort=True)
-loader = DataLoader(dset, batch_size=opt.batch_size, num_workers=opt.nThreads)
+dset = RobotCar(scene=opt.scene, data_path=opt.data_dir, train=not opt.val, transform=transform, undistort=True)
+loader = DataLoader(dset, batch_size=opt.batchsize, num_workers=opt.nThreads)
 
 # gather information about output filenames
 base_dir = osp.join(opt.data_dir, opt.dataset, opt.scene)
