@@ -5,8 +5,8 @@ import pickle
 import os.path as osp
 
 from data.robotcar_sdk.interpolate_poses import interpolate_vo_poses, interpolate_ins_poses
-from data.robotcar_sdk.image import load_image
 from data.robotcar_sdk.camera_model import CameraModel
+from data.robotcar_sdk.image import load_image as robotcar_loader
 from tools.utils import process_poses, calc_vos_simple, load_image
 from torch.utils import data
 from functools import partial
