@@ -203,9 +203,9 @@ class RobotCar(data.Dataset):
             self.poses = np.vstack((self.poses, pss))
         self.gt_idx = np.asarray(range(len(self.poses)))
 
-        # camera model and image loader
+        # camera model and image loader (only use while pre_processing)
         camera_model = CameraModel('./data/robotcar_camera_models', osp.join('stereo', 'centre'))
-        self.im_loader = partial(load_image, model=camera_model)
+        self.im_loader = partial(robotcar_loader, model=camera_model)
 
     def __getitem__(self, index):
         if self.skip_images:
